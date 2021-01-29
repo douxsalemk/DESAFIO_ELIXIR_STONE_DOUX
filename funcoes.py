@@ -48,14 +48,17 @@ def geralistaemail(emails):
     while True:       
         mail = [valor for valor in (input("==>  ").split(',')) if valor !="" and valor !=" "]
         
-        # Verifica se cada email contém o "@" e no mínimo 3 carater para conter o nome de usuario e o provedor 
-        try:
-            if not False in [len(list(valor)) >= 3 for valor in mail] and not False in ['@' in valor for valor in mail]: 
-                emails.append(mail)
-                break
-            else:
+        if mail == []:
+            msg.emailvazio()
+        else:
+            # Verifica se cada email contém o "@" e no mínimo 3 carater para conter o nome de usuario e o provedor 
+            try:
+                if not False in [len(list(valor)) >= 3 for valor in mail] and not False in ['@' in valor for valor in mail]: 
+                    emails.append(mail)
+                    break
+                else:
+                    msg.erroemail(mail)
+            except:
                 msg.erroemail(mail)
-        except:
-            msg.erroemail(mail)
 
     return emails, mail

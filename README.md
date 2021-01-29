@@ -69,7 +69,7 @@ ERROS NA ENTRADA DA LISTAS DE COMPRAS:
    ...'ou digite "OK" para prosseguir"
 
 - COMANDO "OK":
-  São reconhecidos como comando "OK" essas entradas: "OK", "oK", "OK", "ok"
+  São reconhecidos como comando "OK" essas entradas: "OK", "oK", "Ok", "ok"
 ```
 ###### Simulação do erro:
 

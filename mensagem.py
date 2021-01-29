@@ -25,7 +25,7 @@ def errodigitacao(produto):
 def errointeiro(produto):
     print()
     tm = 90
-    print(f'A Quantidade e o preço do produto: {produto} precisam ser valor inteiros'.center(tm,' '))
+    print(f'A Quantidade e o preço do produto: {produto} precisam ser valores inteiros'.center(tm,' '))
     print("Siga este exemplo  =>  Playstation, 2, 450000".center(tm,' '))
     print('ou digite OK para prosseguir\n'.center(tm,' '))
     return
@@ -50,9 +50,17 @@ def msglistaemail():
 
 
 # Mensagem de Erro impressa se for informado um email incorreto.
-def erroemail(produto):
+def erroemail(email):
     print()
     print(f'O endereço email deve conter no mínimo 3 caráter, sendo um deles um : "@"'.center(90,' '))
     print('Aqui está um exemplo: "douxsalem@id.uff, douxsalem.kayembe@gmail.com"'.center(90,' '))
     return
     
+# Mensagem de Erro impressa se foi informado nenhum email na lista de emails.
+def emailvazio():
+    tm = 90
+    print()
+    print(f'O email informado, não pode ser vazio'.center(tm,' '))
+    print('"Aqui está um exemplo: "douxsalem@id.uff, douxsalem.kayembe@gmail.com"'.center(tm,' '))
+    print('Informe uma nova lista\n'.center(tm,' '))
+    return

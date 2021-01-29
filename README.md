@@ -1,6 +1,6 @@
 ### DESAFIO ELIXIR STONE [<span style="color:gray">DOUX SALEM K.</span>][linkdomeusite]
 
-#####**_Este <span style="color:green">Documento</span> contém explicações detalhadas sobre o código desenvolvido e as suas funcionalidades_**
+##### **_Este <span style="color:green">Documento</span> contém explicações detalhadas sobre o código desenvolvido e as suas funcionalidades_**
 
 **Assuntos abordados:**
 ##### - BREVE RESUMO
@@ -12,7 +12,7 @@
 Sinta-se a vontade para perguntar sobre qualquer informação suplementar.
 ```
 
-####**BREVE RESUMO**
+#### **BREVE RESUMO**
 
 ######O programa é criado para receber uma lista de compras do usuário, uma lista de email, e dividir o valor total da compra de forma mais equilibrada e justa.
 
@@ -24,7 +24,7 @@ In: lista de compras| In: lista de emails| Out: Dicionário
 ![lista compra](imagem/listacompra1.jpg)|![lista email](imagem/listaemail1.png)|![lista compra](imagem/Dic1.jpg)
 
 
-####**TRATAMENTO DE ERROS**
+#### **TRATAMENTO DE ERROS**
 
 ######Nesta secção analisaremos de forma detalhada as funcionalidades do programa.
 
@@ -43,7 +43,7 @@ Ao finalizar, o dicionário contendo como chave os email e como valor, a quantia
 ![Tratamento2](imagem/tratamento2.jpg)
 
 
-######Com o intuito de melhorar o desempenho do programa, tratei alguns erros comum relacionados a entrada de dados.
+###### Com o intuito de melhorar o desempenho do programa, tratei alguns erros comum relacionados a entrada de dados.
 
 ```
 Note que: Uma mensagem detalhando qual a natureza do erro cometido é sempre retornado ao usúario, sem interomper o programa.
@@ -71,7 +71,8 @@ ERROS NA ENTRADA DA LISTAS DE COMPRAS:
 - COMANDO "OK":
   São reconhecidos como comando "OK" essas entradas: "OK", "oK", "OK", "ok"
 ```
-######Simulação do erro:
+###### Simulação do erro:
+
 ![simulacao erro 1](imagem/simulacaoerro1.jpg)
 
 
@@ -92,7 +93,8 @@ A seguinte é exibida na ausencia do "@":
    Informe uma nova lista".
 
 ```
-######Simulação do erro:
+###### Simulação do erro:
+
 ![simulacao erro 2](imagem/simulacaoerro2.jpg)
 
 ```
@@ -102,8 +104,8 @@ Para cada repeticão de um endereço de email, o é acrecentado ao final do nome
 ```
 ![simulacao erro 3](imagem/simulacaoerro3.jpg)
 
-####**COMO INSTALAR E UTILIZAR O PROGRAMA**
-######O Programa está escrito na linguagem python.
+#### **COMO INSTALAR E UTILIZAR O PROGRAMA**
+###### O Programa está escrito na linguagem python.
 ```
 Ele é constituido de 3 arquivos python (Desafio_Doux.py, funcoes.py, mensagem.py)
 
@@ -130,8 +132,10 @@ Os 3 arquivos precisam estar no mesmo diretório. Pois mensgam.py e funcoes.py s
 
 # Meta
 
-#####Programa desenvolvido por [<span style="color:gray">DOUX SALEM KAYEMBE</span>][linkdomeusite] como teste técnico para o programa de formção elixir da STONE.
+**Programa desenvolvido por [<span style="color:gray">DOUX SALEM KAYEMBE</span>][linkdomeusite] como teste técnico para o programa de formção elixir da STONE.**
 
-#####ESCRITO NA LINGUAGEM: PYTHON 3.6.0
+**ESCRITO NA LINGUAGEM: PYTHON 3.6.0**
 
-#####Contato: [+5521979913295, douxsalem.kayembe@gmail.com]
+**Contato: [+5521979913295, douxsalem.kayembe@gmail.com]**
+
+[linkdomeusite]: https://douxsalemk.github.io/
